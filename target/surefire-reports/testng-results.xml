@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: Features&#x2F;homepage_searchModule.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: validate Amazon Search features</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Verify that user is able to search product</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I am at the homepage of Amazon (passed : 21s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I search with &#x27;pc&#x27; (passed : 15s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  The list of product is displayed for &#x27;pc&#x27; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Verify that user is able to search product</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I am at the homepage of Amazon (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I search with &#x27;adlfjaldjf&#x27; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  The search error message is displayed as &#x27;Your search &quot;adlfjaldjf&quot; did not match any products.&#x27; (passed : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Test Amazon Features" duration-ms="55009" started-at="2016-07-14T09:02:05Z" finished-at="2016-07-14T09:03:00Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:amazon.automation.testRunners.HomePage_SearchModule_Runner@d5f1185]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Amazon automation tests" duration-ms="55009" started-at="2016-07-14T09:02:05Z" finished-at="2016-07-14T09:03:00Z">
+      <class name="amazon.automation.testRunners.HomePage_SearchModule_Runner">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:amazon.automation.testRunners.HomePage_SearchModule_Runner@d5f1185]" name="run_cukes" duration-ms="54996" started-at="2016-07-14T14:32:05Z" description="Runs Cucumber Features" finished-at="2016-07-14T14:33:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: Features&#x2F;homepage_searchModule.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: validate Amazon Search features</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Verify that user is able to search product</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I am at the homepage of Amazon (passed : 21s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I search with &#x27;pc&#x27; (passed : 15s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  The list of product is displayed for &#x27;pc&#x27; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Verify that user is able to search product</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I am at the homepage of Amazon (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I search with &#x27;adlfjaldjf&#x27; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  The search error message is displayed as &#x27;Your search &quot;adlfjaldjf&quot; did not match any products.&#x27; (passed : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- amazon.automation.testRunners.HomePage_SearchModule_Runner -->
+      <class name="amazon.automation.testRunners.RunnerSupport">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:amazon.automation.testRunners.RunnerSupport@f50fa46]" name="beforesuite" is-config="true" duration-ms="12" started-at="2016-07-14T14:32:05Z" finished-at="2016-07-14T14:32:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:amazon.automation.testRunners.RunnerSupport@f50fa46]" name="aftersuite" is-config="true" duration-ms="3074" started-at="2016-07-14T14:33:00Z" finished-at="2016-07-14T14:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- amazon.automation.testRunners.RunnerSupport -->
+    </test> <!-- Amazon automation tests -->
+  </suite> <!-- Test Amazon Features -->
+</testng-results>

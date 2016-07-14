@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Amazon Features]">
+  <test name="Amazon automation tests(failed)">
+    <classes>
+      <class name="amazon.automation.testRunners.HomePage_SearchModule_Runner">
+        <methods>
+          <include name="run_cukes"/>
+        </methods>
+      </class> <!-- amazon.automation.testRunners.HomePage_SearchModule_Runner -->
+      <class name="amazon.automation.testRunners.RunnerSupport">
+        <methods>
+          <include name="beforesuite"/>
+          <include name="aftersuite"/>
+        </methods>
+      </class> <!-- amazon.automation.testRunners.RunnerSupport -->
+    </classes>
+  </test> <!-- Amazon automation tests(failed) -->
+</suite> <!-- Failed suite [Test Amazon Features] -->
